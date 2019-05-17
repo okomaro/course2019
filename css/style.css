@@ -5,6 +5,8 @@
  */
 
 body {
+    margin: 0;
+    padding: 0;
     overflow-x: hidden;
     font-family: 'Roboto Slab', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol', 'Noto Color Emoji';
 }
@@ -187,10 +189,12 @@ img::-moz-selection {
 header.masthead {
     color: #000000;
     background-image: url("../img/victorystupa_frontpage.jpg");
-    background-repeat: no-repeat;
-    background-attachment: scroll;
-    background-position: center;
     background-size: cover;
+    background-attachment: fixed;
+    background-position: center center;
+    background-repeat: no-repeat;
+    height: 100vh;
+    width: 100%;
 }
 
 header.masthead .intro-text {
@@ -400,6 +404,9 @@ header.masthead .intro-text .intro-heading {
     background-color: #212529;
 }
 
+
+/* Timeline styling */
+
 .timeline {
     position: relative;
     padding: 0;
@@ -455,16 +462,19 @@ header.masthead .intro-text .intro-heading {
     border-left-width: 0;
 }
 
+
+/* rounded images */
+
 .timeline>li .timeline-image {
     position: absolute;
     z-index: 100;
     left: 0;
-    width: 80px;
-    height: 80px;
+    width: 100px;
+    height: 100px;
     margin-left: 0;
     text-align: center;
     color: white;
-    border: 7px solid #e9ecef;
+    border: 5px solid #e9ecef;
     border-radius: 100%;
     background-color: #fed136;
 }
@@ -519,7 +529,7 @@ header.masthead .intro-text .intro-heading {
     }
     .timeline>li {
         min-height: 100px;
-        margin-bottom: 100px;
+        margin-bottom: 50px;
     }
     .timeline>li .timeline-panel {
         float: left;
