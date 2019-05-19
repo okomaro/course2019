@@ -81,6 +81,13 @@ h6 {
     border-color: #CC3333;
 }
 
+.btn-primary.disabled,
+.btn-primary:disabled {
+    color: #fff;
+    background-color: #a0a0a0;
+    border-color: #a0a0a0;
+}
+
 .btn-primary:active,
 .btn-primary:focus,
 .btn-primary:hover {
