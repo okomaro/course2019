@@ -153,14 +153,6 @@ img::-moz-selection {
 }
 
 
-/* Buttons disabled for alert */
-
-a.btn.disabled,
-fieldset:disabled a.btn {
-    pointer-events: all;
-}
-
-
 /* upper navigation */
 
 #mainNav {
@@ -720,4 +712,12 @@ ul.social-buttons li a:active,
 ul.social-buttons li a:focus,
 ul.social-buttons li a:hover {
     background-color: #fed136;
+}
+
+
+/* Buttons disabled for alert */
+
+a.btn.disabled,
+fieldset:disabled a.btn {
+    pointer-events: all;
 }
