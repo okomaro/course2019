@@ -153,6 +153,15 @@ img::-moz-selection {
 }
 
 
+/* Google maps scaling */
+
+iframe {
+    width: 100%;
+    height: 100%;
+    border: none;
+}
+
+
 /* upper navigation */
 
 #mainNav {
