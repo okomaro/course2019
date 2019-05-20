@@ -379,6 +379,10 @@ header.masthead .intro-text .intro-heading {
     #practical .practical-item {
         margin: 0 0 30px;
     }
+    .practical-modal .modal-content h2 {
+        font-size: 1em;
+        margin-bottom: 15px;
+    }
 }
 
 .practical-modal {
@@ -396,7 +400,7 @@ header.masthead .intro-text .intro-heading {
 }
 
 .practical-modal .modal-content h2 {
-    font-size: 3em;
+    font-size: 2em;
     margin-bottom: 15px;
 }
 
@@ -428,8 +432,8 @@ header.masthead .intro-text .intro-heading {
     position: absolute;
     top: 25px;
     right: 25px;
-    width: 75px;
-    height: 75px;
+    width: 50px;
+    height: 50px;
     cursor: pointer;
     background-color: transparent;
 }
@@ -442,7 +446,7 @@ header.masthead .intro-text .intro-heading {
     /* Safari and Chrome */
     z-index: 1051;
     width: 1px;
-    height: 75px;
+    height: 50px;
     margin-left: 35px;
     /* IE 9 */
     -webkit-transform: rotate(45deg);
@@ -454,7 +458,7 @@ header.masthead .intro-text .intro-heading {
     /* Safari and Chrome */
     z-index: 1052;
     width: 1px;
-    height: 75px;
+    height: 50px;
     /* IE 9 */
     -webkit-transform: rotate(90deg);
     transform: rotate(90deg);
@@ -654,27 +658,6 @@ header.masthead .intro-text .intro-heading {
     }
 }
 
-.team-member {
-    margin-bottom: 50px;
-    text-align: center;
-}
-
-.team-member img {
-    width: 225px;
-    height: 225px;
-    border: 7px solid #fff;
-}
-
-.team-member h4 {
-    margin-top: 25px;
-    margin-bottom: 0;
-    text-transform: none;
-}
-
-.team-member p {
-    margin-top: 0;
-}
-
 section#contact {
     background-color: #212529;
     background-image: url("../img/garden_with_stupa_model.jpg");
@@ -722,7 +705,7 @@ ul.social-buttons li a {
     color: white;
     border-radius: 100%;
     outline: none;
-    background-color: #212529;
+    background-color: #CC3333;
 }
 
 ul.social-buttons li a:active,
