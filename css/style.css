@@ -268,14 +268,12 @@ header.masthead .intro-text .intro-heading {
     header.masthead {
         text-align: left;
         color: #000000;
-        background-image: url("../img/victorystupa_frontpage.jpg");
+        background-image: url("../img/VictoryStupa_frontpage.jpg");
         background-size: cover;
         background-attachment: fixed;
         background-position: center center;
         background-position-y: 40px;
         background-repeat: no-repeat;
-        height: 100vh;
-        width: 100%;
     }
     header.masthead .intro-text {
         padding-top: 250px;
