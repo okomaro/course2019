@@ -153,6 +153,14 @@ img::-moz-selection {
 }
 
 
+/* Buttons disabled for alert */
+
+a.btn.disabled,
+fieldset:disabled a.btn {
+    pointer-events: all;
+}
+
+
 /* upper navigation */
 
 #mainNav {
