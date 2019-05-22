@@ -14,12 +14,6 @@
 
         gtag('config', 'UA-111544888-3');
 
-        function handleOutboundLinkClicks(event) {
-            ga('send', 'event', {
-                eventCategory: 'Outbound Link',
-                eventAction: 'click',
-                eventLabel: event.target.href
-            });
         }
     </script>
     <!-- Required meta tags -->
@@ -59,7 +53,7 @@
             <div class="collapse navbar-collapse" id="navbarResponsive">
                 <ul class="navbar-nav text-uppercase ml-auto">
                     <li class="nav-item">
-                        <a class="nav-link js-scroll-trigger" onclick="handleOutboundLinkClicks(event)" href="#program">Program</a>
+                        <a class="nav-link js-scroll-trigger" onclick="ga('send', 'event', 'menu link', 'click', 'menu actions');" href="#program">Program</a>
                     </li>
                     <li class="nav-item">
                         <a class="nav-link js-scroll-trigger" onclick="ga('send', 'event', 'registration', 'click');" href="#registration">Registration</a>
