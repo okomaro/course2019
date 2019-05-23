@@ -407,12 +407,12 @@ header.masthead .intro-text .intro-heading {
 }
 
 .practical-modal .modal-dialog {
-    margin: 1rem;
+    margin: 0.5rem;
     max-width: 100vw;
 }
 
 .practical-modal .modal-content {
-    padding: 100px 0;
+    padding: 1em 0 1em 0em;
     text-align: center;
 }
 
@@ -445,14 +445,25 @@ header.masthead .intro-text .intro-heading {
     cursor: pointer;
 }
 
+@media (min-width: 767px) {
+    .practical-modal .close-modal {
+        position: absolute;
+        top: 25px;
+        right: 25px;
+        width: 50px;
+        height: 50px;
+        cursor: pointer;
+        background-color: transparent;
+    }
+}
+
 .practical-modal .close-modal {
-    position: absolute;
-    top: 25px;
-    right: 25px;
-    width: 50px;
-    height: 50px;
-    cursor: pointer;
-    background-color: transparent;
+    position: -webkit-sticky;
+    position: sticky;
+    text-align: right;
+    top: 1em;
+    right: 1em;
+    background-color: white;
 }
 
 .practical-modal .close-modal:hover {
