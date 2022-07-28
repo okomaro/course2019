@@ -285,7 +285,7 @@ header.masthead .intro-text .intro-heading {
     header.masthead {
         text-align: left;
         color: #000000;
-        background-image: url("../img/VictoryStupa_frontpage.jpg");
+        background-image: url("../img/lamas/background.jpg");
         background-size: cover;
         background-attachment: fixed;
         background-position: center center;
@@ -565,7 +565,7 @@ header.masthead .intro-text .intro-heading {
     color: white;
     border: 5px solid #e9ecef;
     border-radius: 100%;
-    background-color: #fed136;
+    background-color: #fefefe;
 }
 
 .timeline>li .timeline-image h4 {
