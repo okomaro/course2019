@@ -282,7 +282,7 @@ header.masthead .intro-text .intro-heading {
     header.masthead {
         text-align: left;
         color: #000000;
-        background-image: url("../img/lamas/background.jpg");
+        background-image: url("../img/lamas/background.jpg"); 
         background-size: cover;
         background-attachment: fixed;
         background-position: center center;
@@ -292,20 +292,20 @@ header.masthead .intro-text .intro-heading {
         width: 100%;
     }
     header.masthead .intro-text {
-        padding-top: 250px;
+        padding-top: 130px;
         padding-bottom: 200px;
         padding-right: 50%;
         margin-bottom: 30px;
     }
     header.masthead .intro-text .intro-lead-in {
-        font-size: 2rem;
+        font-size: 1.8rem;
         font-style: normal;
         line-height: 2.5rem;
         margin-bottom: 30px;
         font-family: 'Montserrat', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol', 'Noto Color Emoji';
     }
     header.masthead .intro-text .intro-heading {
-        font-size: 2.5rem;
+        font-size: 1.5rem;
         font-weight: 700;
         line-height: 3rem;
         margin-bottom: 50px;
