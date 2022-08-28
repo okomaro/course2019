@@ -35,7 +35,7 @@ h4,
 h5,
 h6 {
     overflow-wrap: break-word;
-    word-wrap: break-word;
+    word-wrap: none;
     -ms-hyphens: auto;
     -moz-hyphens: auto;
     -webkit-hyphens: auto;
@@ -44,8 +44,12 @@ h6 {
     font-family: 'Montserrat', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol', 'Noto Color Emoji';
 }
 
+h4 {
+font-size: 1.2rem;
+}
+
 .page-section {
-    padding: 150px 0 0 0;
+    padding: 5% 0;
 }
 
 .page-section h2.section-heading {
@@ -65,8 +69,10 @@ h6 {
 
 @media (min-width: 768px) {
     section {
-        padding: 150px 0;
+        padding: 5% 0;
     }
+
+
 }
 
 .btn {
@@ -530,7 +536,7 @@ header.masthead .intro-text .intro-heading {
     position: relative;
     float: right;
     width: 100%;
-    padding: 0 20px 0 100px;
+    padding: 0 0px 0 110px;
     text-align: left;
 }
 
