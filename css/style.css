@@ -221,8 +221,8 @@ iframe {
 
 @media (min-width: 992px) {
     #mainNav {
-        padding-top: 25px;
-        padding-bottom: 25px;
+        padding-top: 10px;
+        padding-bottom: 10px;
         -webkit-transition: padding-top 0.3s, padding-bottom 0.3s;
         transition: padding-top 0.3s, padding-bottom 0.3s;
         border: none;
@@ -292,7 +292,7 @@ header.masthead .intro-text .intro-heading {
         background-size: cover;
         background-attachment: fixed;
         background-position: center center;
-        background-position-y: 100px;
+        background-position-y: 80px;
         background-repeat: no-repeat;
         height: 100vh;
         width: 100%;
