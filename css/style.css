@@ -292,10 +292,10 @@ header.masthead .intro-text .intro-heading {
     header.masthead {
         text-align: left;
         color: #000000;
-        background-image: url("../img/lamas/background.jpg"); 
+        background-image: url("../img/lamas/JKR-full.jpeg"); 
         background-size: cover;
         background-attachment: fixed;
-        background-position: center center;
+        background-position: right center;
         background-position-y: 80px;
         background-repeat: no-repeat;
         height: 100vh;
