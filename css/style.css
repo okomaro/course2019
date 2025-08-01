@@ -295,7 +295,7 @@ header.masthead .intro-text .intro-heading {
         background-image: url("../img/lamas/JKR-full.jpeg"); 
         background-size: 50% auto;
         background-attachment: fixed;
-        background-position: right right;
+        background-position: right center;
         background-position-y: 80px;
         background-repeat: no-repeat;
         height: 100vh;
@@ -304,7 +304,8 @@ header.masthead .intro-text .intro-heading {
     header.masthead .intro-text {
         padding-top: 130px;
         padding-bottom: 200px;
-        padding-right: 50%;
+        /* padding-right: 50%; */
+        padding-left: 50%;
         margin-bottom: 30px;
     }
     header.masthead .intro-text .intro-lead-in {
