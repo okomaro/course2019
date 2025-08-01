@@ -293,12 +293,12 @@ header.masthead .intro-text .intro-heading {
         text-align: right;
         color: #000000;
         background-image: url("../img/lamas/JKR-full.jpeg"); 
-        background-size: cover;
+        background-size: 50% auto;
         background-attachment: fixed;
         background-position: right right;
         background-position-y: 80px;
         background-repeat: no-repeat;
-        height: 50vh;
+        height: 100vh;
         width: 100%;
     }
     header.masthead .intro-text {
