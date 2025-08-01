@@ -304,8 +304,7 @@ header.masthead .intro-text .intro-heading {
     header.masthead .intro-text {
         padding-top: 130px;
         padding-bottom: 200px;
-        /* padding-right: 50%; */
-        padding-left: 50%;
+        padding-right: 50%;
         margin-bottom: 30px;
     }
     header.masthead .intro-text .intro-lead-in {
